@@ -25,7 +25,7 @@
 
 #### 01: 실습결과
 
-![](https://github.com/Jungtion/electronic_circuit_experiment/commit/8d196b3e97811c34c21e6f8064bdba93624e12bd)
+![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice09/01.PNG)
 
 #### 02: 0이 9ms동안 들어온 후 1로 시그널이 바뀐 순간이다.
 
