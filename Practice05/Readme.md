@@ -10,7 +10,7 @@
 
 #### **Top Module** : 저번 시간에 만든 second counter  및 Submodule 1/2를 이용하여 실습 장비의 LED에 맞는 Display Module 설계
 
-### FPGA 실습 : 리모컨을 작동하면 6개의 LED 중 가장 오른쪽 2개의 LED에 1초간격으로 0~59까지 증가하는 Counter 값 Display
+### FPGA 실습 : 리모컨의 버튼을 누르면 LED에 각 버튼에 해당하는 시그널이 디스플레이 되도록 한다.
 
 : NCO(Numerical Controlled Oscillator) 입력 바꿔서 4초 간격으로 증가하는 코드 테스트
 
@@ -61,6 +61,6 @@ assign	six_digit_seg = { seg_left, seg_right,  seg_left, seg_right,  seg_left, s
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyNzM2ODU5LC05NzUyOTE0ODgsMTczMz
+eyJoaXN0b3J5IjpbNzk4NTIyNzM1LC05NzUyOTE0ODgsMTczMz
 I5MDk4M119
 -->
