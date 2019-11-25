@@ -25,10 +25,12 @@
 
 #### 01: 실습결과
 
-#### 02: 
+#### 02: 0이 9ms동안 들어온 후 1로 시그널이 바뀐 순간이다.
+
+#### 03: ir_rx가 0에서 1로 바뀌는 부분으로 cnt_l과 cnt_h가 초기화된 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA3MTAwMCwtMTkzNDMyMzE2MCwtNj
+eyJoaXN0b3J5IjpbLTc0ODg5NzA1OSwtMTkzNDMyMzE2MCwtNj
 AyNTczNDQ2LC0xODk1ODU2NDgyLDc5ODUyMjczNSwtOTc1Mjkx
 NDg4LDE3MzMyOTA5ODNdfQ==
 -->
