@@ -33,10 +33,16 @@
 
 #### 03: ir_rx가 0에서 1로 바뀌는 부분으로 cnt_l과 cnt_h가 초기화된 모습이다
 
+![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice09/03.PNG)
+
 #### 04: 32개의 데이터가 들어온 순간이다.(cnt32 신호 확인) 그래서 o_data가 이 이전에는 빨간줄로 시그널이 안나다가 이 이후에 신호가 1로 바뀐다.
+
+![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice09/04.PNG)
 
 #### 05: 실습장비의 led부분을 찍은 사진이다.
 
+![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice09/05.PNG)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg0NzI2NDIsMjAwMzU2ODUzM119
+eyJoaXN0b3J5IjpbMTI1OTM5NTU3LDIwMDM1Njg1MzNdfQ==
 -->
