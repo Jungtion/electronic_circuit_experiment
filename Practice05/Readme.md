@@ -21,9 +21,12 @@
 
 : NCO(Numerical Controlled Oscillator) 입력 바꿔서 4초 간격으로 증가하는 코드 테스트
 
+## 실습 결과 사진
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA2Njc3NTEsLTYwMjU3MzQ0NiwtMT
+eyJoaXN0b3J5IjpbLTE5MzQzMjMxNjAsLTYwMjU3MzQ0NiwtMT
 g5NTg1NjQ4Miw3OTg1MjI3MzUsLTk3NTI5MTQ4OCwxNzMzMjkw
 OTgzXX0=
 -->
