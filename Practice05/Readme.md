@@ -4,7 +4,8 @@
 
 ### **IR 컨트롤러 제작 **
 
-#### **Submodule 1(fnd_dec)** : 0~9의 값을 갖는 4bit 입력 신호를 받아 7bit FND  segment  값 출력
+#### **Submodule 1(ir_rx)** : 리모컨으로부터 오는 신호를 받음
+#####
 
 #### **Submodule 2** : 0~59의 값을 갖는 6bit 입력 신호를 받아 십의 자리 수와 일의 자리 수를 각각 4bit으로 출력
 
@@ -61,6 +62,6 @@ assign	six_digit_seg = { seg_left, seg_right,  seg_left, seg_right,  seg_left, s
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5OTYyMDk5LDc5ODUyMjczNSwtOTc1Mj
-kxNDg4LDE3MzMyOTA5ODNdfQ==
+eyJoaXN0b3J5IjpbLTE1NzczNjY0NjcsNzk4NTIyNzM1LC05Nz
+UyOTE0ODgsMTczMzI5MDk4M119
 -->
