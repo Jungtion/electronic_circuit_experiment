@@ -36,5 +36,5 @@
 #### 05: 실습장비의 led부분을 찍은 사진이다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzU2ODUzM119
+eyJoaXN0b3J5IjpbMTI1OTM5NTU3LDIwMDM1Njg1MzNdfQ==
 -->
