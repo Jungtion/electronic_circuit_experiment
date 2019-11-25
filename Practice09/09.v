@@ -343,7 +343,7 @@ wire  [6:0]   seg5   ;
 wire  [41:0]  six_digit_seg   ;
 
 
-assign        six_digit_seg = {seg0, seg1, seg2, seg3, seg4, seg5};
+assign        six_digit_seg = {seg5, seg4, seg3, seg2, seg1, seg0};
 
 
 
@@ -387,7 +387,7 @@ led_disp    u_led_disp(
 		                .o_seg            ( o_seg            ),
 		                .o_seg_dp         ( o_seg_dp         ),
 		                .o_seg_enb        ( o_seg_enb        ),
-		                .i_six_digit_seg  ( i_six_digit_seg  ),
+		                .i_six_digit_seg  ( six_digit_seg  ),
 		                .i_six_dp         ( 6'h0             ),
 		                .clk              ( clk              ),
 		                .rst_n            ( rst_n            ));
