@@ -61,5 +61,6 @@ assign	six_digit_seg = { seg_left, seg_right,  seg_left, seg_right,  seg_left, s
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTI5MTQ4OCwxNzMzMjkwOTgzXX0=
+eyJoaXN0b3J5IjpbLTE3NzE1MDUzOTMsLTk3NTI5MTQ4OCwxNz
+MzMjkwOTgzXX0=
 -->
