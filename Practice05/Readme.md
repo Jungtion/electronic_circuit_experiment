@@ -13,7 +13,7 @@
 
 #### **Submodule 2** : 0~59의 값을 갖는 6bit 입력 신호를 받아 십의 자리 수와 일의 자리 수를 각각 4bit으로 출력
 
-#### **Top Module** : 저번 시간에 만든 second counter  및 Submodule 1/2를 이용하여 실습 장비의 LED에 맞는 Display Module 설계
+#### **Top Module** : 실습장비의  led와 디스플레이 순서에 맞는 디스플레이모듈을 설계
 
 ### FPGA 실습 : 리모컨의 버튼을 누르면 LED에 각 버튼에 해당하는 시그널이 디스플레이 되도록 한다.
 
@@ -66,6 +66,6 @@ assign	six_digit_seg = { seg_left, seg_right,  seg_left, seg_right,  seg_left, s
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTU4NTY0ODIsNzk4NTIyNzM1LC05Nz
-UyOTE0ODgsMTczMzI5MDk4M119
+eyJoaXN0b3J5IjpbLTExODkwNzY0MjIsLTE4OTU4NTY0ODIsNz
+k4NTIyNzM1LC05NzUyOTE0ODgsMTczMzI5MDk4M119
 -->
