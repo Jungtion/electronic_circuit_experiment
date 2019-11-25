@@ -41,7 +41,7 @@
 
 #### 05: 실습장비의 led부분을 찍은 사진이다.
 
-![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice09/05.PNG)
+![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice09/05.jpeg)
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTI1OTM5NTU3LDIwMDM1Njg1MzNdfQ==
