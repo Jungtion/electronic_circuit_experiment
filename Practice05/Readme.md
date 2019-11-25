@@ -11,7 +11,7 @@
 ##### -  state를 알기 위해 IDLE로 시작하여 시작점을 규정하고, LEADCODE가 시작되고 일정시간이 지나면 충분히 코드가 들어왔다고 가정하고 DATACODE로 넘어간다. seq_rx가 1이 되어 datacode로 넘어왔음이 확인되면 마찬가지로 적당한 시간을 주어 적당히 low신호가 들어오면 끝으로 인식한다. 끝나면 다시 IDLE로 넘어가 대기한다.
 ##### - DATACODE에서 [32-cnt32]를 이용하여 상위 24개의 bit 중에 상위 bit부터 하나씩 나열하도록 한다.
 
-#### **Submodule 2(led_disp)** : 0이 나오는 것을 디폴트로  0~59의 값을 갖는 6bit 입력 신호를 받아 십의 자리 수와 일의 자리 수를 각각 4bit으로 출력
+#### **Submodule 2(led_disp)** : 0이 나오는 것을 디폴트로 하여 0~59의 값을 갖는 6bit 입력 신호를 받아 십의 자리 수와 일의 자리 수를 각각 4bit으로 출력
 
 #### **Top Module** : 실습장비의  led와 디스플레이 순서에 맞는 디스플레이모듈을 설계
 
@@ -66,6 +66,6 @@ assign	six_digit_seg = { seg_left, seg_right,  seg_left, seg_right,  seg_left, s
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjgxOTQ5MCwtMTg5NTg1NjQ4Miw3OT
-g1MjI3MzUsLTk3NTI5MTQ4OCwxNzMzMjkwOTgzXX0=
+eyJoaXN0b3J5IjpbLTEyMzQ5Njc3OTgsLTE4OTU4NTY0ODIsNz
+k4NTIyNzM1LC05NzUyOTE0ODgsMTczMzI5MDk4M119
 -->
