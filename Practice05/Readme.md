@@ -13,6 +13,8 @@
 
 #### **Submodule 2(led_disp)** : 0이 나오는 것을 디폴트로 하여 0~59의 값을 갖는 6bit 입력 신호를 받아 십의 자리 수와 일의 자리 수를 각각 4bit으로 출력
 
+#### **Submodule 3(fnd_dec) : 0~9의 값을 갖는 4bit 입력 신호를 받아 7bit FND segment 값 출력
+
 #### **Top Module** : 실습장비의  led와 디스플레이 순서에 맞는 디스플레이모듈을 설계
 
 ### FPGA 실습 : 리모컨의 버튼을 누르면 LED에 각 버튼에 해당하는 시그널이 디스플레이 되도록 한다.
@@ -66,6 +68,6 @@ assign	six_digit_seg = { seg_left, seg_right,  seg_left, seg_right,  seg_left, s
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQ5Njc3OTgsLTE4OTU4NTY0ODIsNz
-k4NTIyNzM1LC05NzUyOTE0ODgsMTczMzI5MDk4M119
+eyJoaXN0b3J5IjpbLTYwMjU3MzQ0NiwtMTg5NTg1NjQ4Miw3OT
+g1MjI3MzUsLTk3NTI5MTQ4OCwxNzMzMjkwOTgzXX0=
 -->
