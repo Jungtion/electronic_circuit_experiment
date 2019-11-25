@@ -5,7 +5,8 @@
 ### **IR 컨트롤러 제작 **
 
 #### **Submodule 1(ir_rx)** : 리모컨으로부터 오는 신호를 받음
-#####
+##### - assign으로  ir_rx를 반전시켜 시뮬레이션을 돌리고 나서 보기에 좋게 만든다.
+##### - 
 
 #### **Submodule 2** : 0~59의 값을 갖는 6bit 입력 신호를 받아 십의 자리 수와 일의 자리 수를 각각 4bit으로 출력
 
@@ -62,6 +63,6 @@ assign	six_digit_seg = { seg_left, seg_right,  seg_left, seg_right,  seg_left, s
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzczNjY0NjcsNzk4NTIyNzM1LC05Nz
-UyOTE0ODgsMTczMzI5MDk4M119
+eyJoaXN0b3J5IjpbNTE0MjQ0MTk2LDc5ODUyMjczNSwtOTc1Mj
+kxNDg4LDE3MzMyOTA5ODNdfQ==
 -->
