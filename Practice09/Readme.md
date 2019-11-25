@@ -25,6 +25,8 @@
 
 #### 01: 실습결과
 
+![](https://github.com/Jungtion/electronic_circuit_experiment/commit/8d196b3e97811c34c21e6f8064bdba93624e12bd)
+
 #### 02: 0이 9ms동안 들어온 후 1로 시그널이 바뀐 순간이다.
 
 #### 03: ir_rx가 0에서 1로 바뀌는 부분으로 cnt_l과 cnt_h가 초기화된 모습이다
