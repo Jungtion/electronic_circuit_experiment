@@ -11,7 +11,7 @@
 ##### -  state를 알기 위해 IDLE로 시작하여 시작점을 규정하고, LEADCODE가 시작되고 일정시간이 지나면 충분히 코드가 들어왔다고 가정하고 DATACODE로 넘어간다. seq_rx가 1이 되어 datacode로 넘어왔음이 확인되면 마찬가지로 적당한 시간을 주어 적당히 low신호가 들어오면 끝으로 인식한다. 끝나면 다시 IDLE로 넘어가 대기한다.
 ##### - DATACODE에서 [32-cnt32]를 이용하여 상위 24개의 bit 중에 상위 bit부터 하나씩 나열하도록 한다.
 
-#### **Submodule 2(led_disp)** : 0이 나오는 것을 디폴트로 하여 0~59의 값을 갖는 6bit 입력 신호를 받아 십의 자리 수와 일의 자리 수를 각각 4bit으로 출력
+#### **Submodule 2(led_disp)** : 0이 나오는 것을 디폴트로 하여 0~59의 값을 갖는 6bit 입력 신호를 받아 각 자리의 수를 각각 4bit으로 출력
 
 #### **Submodule 3(fnd_dec) : 0~9의 값을 갖는 4bit 입력 신호를 받아 7bit FND segment 값 출력
 
@@ -21,53 +21,9 @@
 
 : NCO(Numerical Controlled Oscillator) 입력 바꿔서 4초 간격으로 증가하는 코드 테스트
 
-## 퀴즈
-
-### 아래 코드 일부를 수정하여 다음을 구하시오 
-
-```verilog
-  wire  [41:0] six_digit_seg;
-  assign       six_digit_seg = { 4{7'b0000000}, seg_left, seg_right };
-```  
-
- > Q1 - 고정 LED (왼쪽 4개) AAAA 출력 : `AA_AA_00`, `AA_AA_01`, `AA_AA_02`, … 순으로 LED 변경
- 
- ```verilog
- wire  [41:0] six_digit_seg	;
- assign	six_digit_seg = {4{7'b1110111}, seg_left, seg_right}  ;
-```
- 
-
-> Q2 - 고정 LED 없이 2개의 LED 단위로 1초 Counter 값 표시 : `00_00_00`, `01_01_01`, `02_02_02`, … 순으로 LED 변경
-
-```verilog
-wire	[41:0] six_digit_seg	;
-assign	six_digit_seg = { seg_left, seg_right,  seg_left, seg_right,  seg_left, seg_right}  ;
-```
-
-## 결과 
-
-### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
-
-![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice05/image/02.PNG)
-
-### **FPGA 동작 사진 (3개- 일반, Q1, Q2)**
-
-![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice05/image/IMG_7285.JPG)
-
-![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice05/image/IMG_7286.JPG)
-
-![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice05/image/IMG_7287.JPG)
-
-![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice05/image/IMG_7288.JPG)
-
-![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice05/image/IMG_7289.JPG)
-
-![](https://github.com/Jungtion/electronic_circuit_experiment/blob/master/Practice05/image/IMG_7290.JPG)
-
-> Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjU3MzQ0NiwtMTg5NTg1NjQ4Miw3OT
-g1MjI3MzUsLTk3NTI5MTQ4OCwxNzMzMjkwOTgzXX0=
+eyJoaXN0b3J5IjpbLTE0NDA2Njc3NTEsLTYwMjU3MzQ0NiwtMT
+g5NTg1NjQ4Miw3OTg1MjI3MzUsLTk3NTI5MTQ4OCwxNzMzMjkw
+OTgzXX0=
 -->
