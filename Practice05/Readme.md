@@ -29,10 +29,12 @@
 
 #### 03: ir_rx가 0에서 1로 바뀌는 부분으로 cnt_l과 cnt_h가 초기화된 모습이다
 
-#### 04: 32개의 데이터가 들어온 순간이다. 그래서 o_data가 이 이전에
+#### 04: 32개의 데이터가 들어온 순간이다.(cnt32 신호 확인) 그래서 o_data가 이 이전에는 빨간줄로 시그널이 안나다가 이 이후에 신호가 1로 바뀐다.
+
+#### 05: 실습장비의 led부분을 찍은 사진이다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzIyOTg5MDMsLTE5MzQzMjMxNjAsLT
-YwMjU3MzQ0NiwtMTg5NTg1NjQ4Miw3OTg1MjI3MzUsLTk3NTI5
-MTQ4OCwxNzMzMjkwOTgzXX0=
+eyJoaXN0b3J5IjpbMjAwMzU2ODUzMywtMTkzNDMyMzE2MCwtNj
+AyNTczNDQ2LC0xODk1ODU2NDgyLDc5ODUyMjczNSwtOTc1Mjkx
+NDg4LDE3MzMyOTA5ODNdfQ==
 -->
